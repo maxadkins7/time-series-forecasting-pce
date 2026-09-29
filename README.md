@@ -2,6 +2,10 @@
 
 Graduate quantitative economics project comparing the forecasting performance of four autoregressive models for the quarterly growth rate of real personal consumption expenditures per capita on nondurable goods.
 
+## Full Work Sample
+
+[View the complete forecasting work sample](docs/Max_Adkins_Time_Series_Forecasting_Work_Sample.pdf)
+
 ## Project Overview
 
 The objective of this project was to determine which autoregressive specification — AR(1), AR(2), AR(3), or AR(4) — produced the most reliable out-of-sample forecasts for U.S. real personal consumption expenditures per capita on nondurable goods.
@@ -143,6 +147,14 @@ For that reason, the conclusion was based on the overall body of forecast eviden
 
 ---
 
+## Project Context
+
+This project was completed as part of graduate coursework in Quantitative Economics / Econometrics at East Carolina University.
+
+The goal of the project was not simply to identify the model with the best in-sample fit, but to evaluate competing forecasting models using repeated out-of-sample prediction and multiple statistical diagnostics.
+
+---
+
 ## Repository Structure
 
 ```text
@@ -150,6 +162,9 @@ time-series-forecasting-pce/
 │
 ├── README.md
 │
-└── data/
-    └── raw/
-        └── A796RX0Q048SBEA.csv
+├── data/
+│   └── raw/
+│       └── A796RX0Q048SBEA.csv
+│
+└── docs/
+    └── Max_Adkins_Time_Series_Forecasting_Work_Sample.pdf
